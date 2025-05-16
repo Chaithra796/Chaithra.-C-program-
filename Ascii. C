@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    char ch;
+
+    // Get a character from the user
+    printf("Enter a character: ");
+    scanf("%c", &ch);
+
+    // Display the ASCII value
+    printf("The ASCII value of '%c' is %d\n", ch, (int)ch);
+
+    return 0;
+}
