@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    char name[50];
+    int age;
+    char location[50];
+
+    // Get name
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+
+    // Get age
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    // Clear input buffer
+    while (getchar() != '\n');
+
+    // Get location
+    printf("Enter your location: ");
+    fgets(location, sizeof(location), stdin);
+
+    // Output the collected information
+    printf("\n--- User Information ---\n");
+    printf("Name: %s", name);
+    printf("Age: %d\n", age);
+    printf("Location: %s", location);
+
+    return 0;
+}
