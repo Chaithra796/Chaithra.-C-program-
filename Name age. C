@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    char name[] = "Chaithra";
+    int age = 18;
+
+    printf("Hello %s, you are %d years old.\n", name, age);
+
+    return 0;
+}
