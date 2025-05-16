@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char str[100];
+    int i, length = 0;
+
+    printf("Enter a string: ");
+    fgets(str, sizeof(str), stdin);
+
+    // Count characters until null terminator or newline
+    for (i = 0; str[i] != '\0' && str[i] != '\n'; i++) {
+        length++;
+    }
+
+    printf("Length (using for loop) = %d\n", length);
+
+    return 0;
+}
