@@ -1,0 +1,16 @@
+#include<stdio.h>
+struct book {
+    char name[20];
+    char writer_name[40];
+    int price;
+};
+struct book b;
+int main(){
+    printf("enter book name\n");
+    scanf("%s", &b. name);
+    printf("Enter a writer name\n");
+    scanf("%s", &b. writer_name);
+    printf("Enter a price\n");
+    scanf("%d", &b. price);
+    printf("Name:%s\n writer name:%s\n price:%d", b. name, b. writer_name, b. price);
+}
