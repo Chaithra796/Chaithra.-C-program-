@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    struct chaithra {
+        char name[5];
+        int age;
+        float weight;
+    };
+    struct chaithra r1;
+    printf("Enter the name");
+    scanf("%s", &r1);
+    printf("Enter the age");
+    scanf("%d", &r1);
+    printf("Enter the weight");
+    scanf("%f", &r1);
+}
