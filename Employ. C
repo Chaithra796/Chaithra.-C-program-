@@ -1,0 +1,18 @@
+#include<stdio.h>
+struct address {
+    char city[20];
+    int pin;
+};
+struct Employee{
+    char name[20];
+    struct address ad;
+};
+struct Employee e1;
+int main() {
+    printf("Enter a name:");
+    scanf("%s", e1.name);
+    printf("Enter city name:");
+    scanf("%s", &e1.ad. city);
+    printf("Enter a code:");
+    scanf("%d", &e1.ad. pin);
+}
